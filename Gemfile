@@ -5,14 +5,23 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+<<<<<<< HEAD
+=======
+#ログイン機能の実装
+gem 'devise'
+
+>>>>>>> origin/master
 # Bootstrap
 gem 'less-rails'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails', '~> 2.2.8'
 gem 'font-awesome-rails'
 gem 'bootstrap-sass', '2.3.2.0'
+<<<<<<< HEAD
 # ログイン機能の実装
 gem 'devise'
+=======
+>>>>>>> origin/master
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
